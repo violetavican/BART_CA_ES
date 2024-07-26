@@ -1,0 +1,7 @@
+# conda create -n thesis python=3.11
+
+python==3.11.7
+datasets==2.16.1
+transformers[torch]==4.37.2
+nltk==3.8.1
+deepspeed==0.13.1
