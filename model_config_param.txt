@@ -1,0 +1,17 @@
+Model Configuration Parameters:
+max_length: 20
+max_position_embeddings: 1024
+vocab_size: 50265
+d_model: 1024
+encoder_layers: 12
+decoder_layers: 12
+
+Default Generation Parameters:
+max_length: 20
+min_length: 0
+do_sample: False
+num_beams: 4
+temperature: 1.0
+top_k: 50
+top_p: 1.0
+repetition_penalty: 1.0
